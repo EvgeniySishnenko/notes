@@ -1,0 +1,27 @@
+.App {
+  width: 940px;
+  margin: 0 auto;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.item {
+  padding: 15px;
+  width: 200px;
+  border: 1px solid black;
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+.del {
+  position: absolute;
+  right: 0;
+  top: -20px;
+  color: red;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
